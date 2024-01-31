@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>
+    
+            Welcome to Loan Repayment Risk predictor
+        </title>
+        <a href="{{ url_for('Home') }}">Back</a>
+            
+    </head>
+    <body>
+    <div class="login">
+            <h1>
+                loan repayment risk predictor
+            </h1>
+    <br>
+    <br>
+    {% for user in your_list %}
+     <tr>
+        <p>{{ user }} </p>
+        {% for vals in your_list[user] %}
+        <td><p>{{ vals }} </p></td>
+       
+        {% endfor %}
+        
+        <img src="{{ img[loop.index -1] }}"alt="tree" width="1900" height="200">
+        
+     </tr>      
+    {% endfor %}
+    
+    
+</div>
+    </body>
+</html>
