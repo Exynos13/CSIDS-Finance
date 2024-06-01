@@ -13,13 +13,8 @@ Case Studies In Data Science Group WIL Project (WIL Project Group 8)
 ## **Important Links**
 - [Trello WorkSpace](https://trello.com/b/3AZXMNnj)
 - [Trello PM Board](https://trello.com/invite/b/3AZXMNnj/fcf43e198a5f7ae7fee3503644bba815/csids-pm-board)
-- [GitHub Link](https://github.com/IwVr/CSIDS-Finance.git)
+- [GitHub Link](https://github.com/Exynos13/CSIDS-Finance.git)
 
-## **Notes** 
-- Please ensure you use proper git methods
-- For adding a feature create your own branch and the make a pull request so we can review the changes
-- Avoid commiting directly to the main branch
-- Ensure the commit messages follow proper rules 
 
 
 ## **Git Contents & Structure**
